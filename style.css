@@ -1,0 +1,98 @@
+/* style9.css placeholder - Add your 300+ line CSS here */
+body {
+    background: radial-gradient(circle at center, #1b1b2f, #162447);
+    color: #eeeeee;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-wrapper {
+    max-width: 1000px;
+    margin: 60px auto;
+    background: rgba(27, 27, 47, 0.9);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+}
+
+.portfolio-name {
+    text-align: center;
+    font-size: 4rem;
+    color: #00ffe0;
+    text-shadow: 0 0 15px #00ffe0;
+    margin-bottom: 20px;
+}
+
+.portfolio-interest {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #f09d51;
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #00ffe0;
+    padding-bottom: 6px;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+ul li {
+    background: rgba(0, 255, 255, 0.05);
+    padding: 12px;
+    border-left: 4px solid #f09d51;
+    margin: 10px 0;
+    transition: all 0.4s;
+}
+
+ul li:hover {
+    transform: translateX(12px);
+    background-color: rgba(0, 255, 255, 0.1);
+}
+
+.portfolio-project-gallery img {
+    width: 30%;
+    margin: 1.5%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    transition: transform 0.4s;
+}
+
+.portfolio-project-gallery img:hover {
+    transform: scale(1.07) rotate(2deg);
+}
+
+.certificates-gallery img {
+    width: 130px;
+    margin: 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(240, 157, 81, 0.4);
+    transition: all 0.4s;
+}
+
+.certificates-gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(240, 157, 81, 0.7);
+}
+
+.portfolio-footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.portfolio-footer a {
+    display: inline-block;
+    padding: 14px 30px;
+    background: linear-gradient(90deg, #00ffe0, #f09d51);
+    color: #000;
+    text-decoration: none;
+    border-radius: 35px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.portfolio-footer a:hover {
+    background: linear-gradient(90deg, #f09d51, #00ffe0);
+    box-shadow: 0 0 20px #00ffe0;
+}
